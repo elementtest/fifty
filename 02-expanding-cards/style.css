@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: 'Muli';
+    font-family: 'Roboto';
+    color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
