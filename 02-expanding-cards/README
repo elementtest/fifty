@@ -1,2 +1,63 @@
 README notes on own project
 
+container wrapped around all the panels
+
+flex direction column to have them stacked on each other 
+
+set width with vw units
+
+
+panel 
+if image is bad then set the background-size/position/repeat properties
+
+heigth set in vh
+
+border-radius 
+
+cursor pointer
+
+flex: 0.5;
+when you have the active class will change this transition property 
+
+margin to space them apart
+
+
+
+TEXT INSIDE EACH panel::
+
+make parent container position relative and the parent text absolute
+
+
+set a transition on the flex property lasting 0.7seconds with the ease-in effect
+
+
+.panel h3 
+target the h3 inside of each panel 
+
+font-size 
+position absolute
+
+position the text using bottom: what
+left: what 
+right: what 
+top: what: 
+opacity is 0 because you want it to only show when the class is active 
+
+.panel.active {
+    set the flex to much higher like 5
+}
+
+
+.panel.active h3 {
+    opacity set to 1 to display it 
+}
+
+@media(max-width): 480px) {
+    .container {
+        width: 100vh;
+    }
+
+    .panel:nth-of-type(4),.panel:nth-of-type(5){
+        display: none; // will delete it on that screen size  
+    }
+}
